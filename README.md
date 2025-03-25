@@ -5,8 +5,8 @@ This is a repo that shows how too use the AI Translation tool
 
 # TODO:
 
-- Create the Modules needed for Azure AI translation
-- Create FastAPI endpoints for it
+- Create the Modules needed for Azure AI translation - Done
+- Create FastAPI endpoints for it - Done
 - Create a streamlit app to run the application
 - Create a notebook working through it
 - Give option for using App Config
