@@ -1,2 +1,4 @@
 python-dotenv
 azure-core
+azure-ai-translation-document
+azure-ai-translation-text
