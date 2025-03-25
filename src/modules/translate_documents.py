@@ -61,11 +61,11 @@ def document_translation(source_document, source_language_code, target_language_
         }
 
         headers = {
-            "Ocp-Apim-Subscription-Key": settings.AZURE_AI_KEY,
+            "Ocp-Apim-Subscription-Key": settings.AZURE_AI_TRANSLATION_KEY,
             "Ocp-Apim-Subscription-Region": "southcentralus"
         }
 
-        url = settings.AZURE_AI_DOCUMENT_TRANSLATION + "translator/document:translate"
+        url = settings.AZURE_AI_TRANSLATION_ENDPOINTDOCUMENT + "translator/document:translate"
 
         with open(source_document, "rb") as document:
             data = {
